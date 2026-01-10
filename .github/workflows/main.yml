@@ -21,4 +21,4 @@ jobs:
 
       - name: Build with Maven
         # Vì file pom.xml của bạn nằm trong thư mục con demo-app
-        run: mvn clean package --file demo-app/demo-app/pom.xml
+        run: mvn clean package
