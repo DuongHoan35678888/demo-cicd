@@ -29,4 +29,4 @@ jobs:
         with:
           name: spring-boot-app-jar # Tên của file khi tải về
           # Đường dẫn đến file .jar vừa được build xong (trong thư mục target)
-          path: demo-app/target/*.jar
+          path: demo-app/demo-app/target/*.jar
