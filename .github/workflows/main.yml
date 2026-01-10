@@ -25,7 +25,7 @@ jobs:
 
       - name: Upload Build Artifact
         # Sử dụng action chính thức của Github để lưu trữ file
-        uses: action/upload-artifact@v4
+        uses: actions/upload-artifact@v4
         with:
           name: spring-boot-app-jar # Tên của file khi tải về
           # Đường dẫn đến file .jar vừa được build xong (trong thư mục target)
