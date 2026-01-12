@@ -31,3 +31,19 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Docker data (QUAN TRỌNG NHẤT)
+registry_data/
+
+# Java / Spring Boot
+*.class
+*.jar
+*.war
+*.ear
+
+# IDE
+.idea/
+
+# OS rác
+.DS_Store
+Thumbs.db
