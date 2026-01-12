@@ -19,6 +19,6 @@ public class HelloControllerTest {
     public void testHelloEndpoint() throws Exception {
         mockMvc.perform(get("/hello"))
                 .andExpect(status().isOk())
-                .andExpect(content().string("Chào mừng Hoàn đã đến với Spring Boot!"));
+                .andExpect(content().string("Chào mừng Hoàn đẹp trai đã đến với Spring Boot!"));
     }
 }
